@@ -1,0 +1,26 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.pdf.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
+*~
+
+# Job applications stay local — only the template is tracked
+applications/*
+!applications/_TEMPLATE_COMPANY_ROLE/
+!applications/_TEMPLATE_COMPANY_ROLE/**
+!applications/README.md
+
+# Optional: uncomment to stop tracking the canonical sample PDF in outputs/
+# outputs/*.pdf

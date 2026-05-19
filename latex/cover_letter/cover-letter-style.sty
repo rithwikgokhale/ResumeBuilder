@@ -1,0 +1,37 @@
+% Simple professional cover letter style aligned with resume visual identity.
+% Keep this simple and ATS-safe.
+
+\ProvidesPackage{cover-letter-style}
+
+\usepackage[letterpaper,margin=0.72in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{parskip}
+\usepackage{ragged2e}
+
+\definecolor{resumeBlue}{HTML}{1F4E79}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=resumeBlue,
+  linkcolor=resumeBlue
+}
+
+\pagenumbering{gobble}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{7pt}
+
+\newcommand{\CandidateName}[1]{%
+  {\centering {\Large\bfseries\color{resumeBlue} #1}\par}
+}
+
+\newcommand{\ContactLine}[1]{%
+  {\centering {\small #1}\par}\vspace{10pt}
+}
+
+\newcommand{\LetterSubject}[1]{%
+  {\bfseries\color{resumeBlue} #1}\par\vspace{4pt}
+}

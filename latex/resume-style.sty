@@ -1,0 +1,168 @@
+% Rithwik Resume Style - formatting lock
+% Do not modify unless Rithwik explicitly asks for formatting changes.
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{resume-style}[2026/05/13 Rithwik resume formatting]
+
+% heightrounded: text height snaps to baselines to avoid a loose slab of space at the bottom.
+\RequirePackage[letterpaper, top=0.5in, bottom=0.26in, left=0.5in, right=0.5in, heightrounded]{geometry}
+\RequirePackage{changepage}% adjustwidth for list-only indent
+\RequirePackage{fontspec}
+\RequirePackage{xcolor}
+\RequirePackage{hyperref}
+\RequirePackage{enumitem}
+\RequirePackage{tabularx}
+\RequirePackage{ragged2e}
+\RequirePackage{microtype}
+\RequirePackage{titlesec}
+\RequirePackage{ifthen}
+
+% One tab: list bullets only (company/title/section headings stay flush to text margin).
+\newlength{\ResumeListTab}
+\setlength{\ResumeListTab}{0.2in}
+\AtEndDocument{\par\vspace{-10pt}}
+
+% Times New Roman ships with macOS/Windows; matches typical Word resume PDFs.
+\setmainfont{Times New Roman}[Ligatures=TeX]
+\definecolor{sectionblue}{HTML}{0070C0}
+\definecolor{linkblue}{HTML}{0070C0}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=linkblue,
+  linkcolor=linkblue
+}
+
+% Colored + underlined hyperlink helper for the contact line.
+\newcommand{\contacthref}[2]{%
+  \href{#1}{\textcolor{linkblue}{\underline{#2}}}%
+}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{4em}
+% No flexible glue under the last column: avoids a tall empty band at the page bottom.
+\def\@textbottom{\vskip\z@skip}
+\linespread{0.96}
+\sloppy
+\justifying
+
+% Bullet mark sized to match body text (10pt).
+\newcommand{\ResumeBulletMark}{%
+  \raisebox{0.1ex}{\fontsize{10pt}{11pt}\selectfont\normalfont$\bullet$}%
+}
+
+\newcommand{\candidateName}[1]{%
+  {\centering\fontsize{20.5pt}{23pt}\selectfont\bfseries #1\par}
+  \vspace{4pt}
+}
+
+\newcommand{\contactLine}[1]{%
+  {\centering\fontsize{9.5pt}{10.5pt}\selectfont #1\par}
+  \vspace{5pt}
+}
+
+\newcommand{\resumeSection}[1]{%
+  \vspace{3pt}
+  \noindent{\fontsize{13.5pt}{14.5pt}\selectfont\bfseries\color{sectionblue} #1\par}
+  \vspace{1pt}
+  \noindent\hspace{-4pt}{\color{sectionblue}\rule{\dimexpr\linewidth+8pt\relax}{1.15pt}}%
+  \vspace{0.5pt}
+}
+
+% Right column: locations need more width than date ranges so city/state stays on one line.
+\newlength{\ResumeEntryRightCol}
+\setlength{\ResumeEntryRightCol}{1.72in}
+\newlength{\ResumeDatesCol}
+\setlength{\ResumeDatesCol}{1.78in}
+
+% Bold company/university header rows: 11pt.
+\newcommand{\resumeEntryHeader}[2]{%
+  \noindent\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X >{\raggedleft\arraybackslash}p{\ResumeEntryRightCol}@{}}
+    {\fontsize{11pt}{12pt}\selectfont\bfseries #1} & {\fontsize{11pt}{12pt}\selectfont #2} \\
+  \end{tabularx}%
+  \vspace{-1pt}%
+}
+
+% Italic title/dates row: 10pt.
+\newcommand{\resumeEntrySubheader}[2]{%
+  \noindent\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X >{\raggedleft\arraybackslash}p{\ResumeDatesCol}@{}}
+    {\fontsize{10pt}{11pt}\selectfont\itshape #1} & {\fontsize{10pt}{11pt}\selectfont\itshape #2} \\
+  \end{tabularx}%
+  \vspace{2pt}%
+}
+
+% Experience bullets: 10pt body text.
+\newenvironment{resumeBullets}{%
+  \hyphenpenalty=10000\exhyphenpenalty=10000\pretolerance=2000\tolerance=2800\emergencystretch=3em
+  \begin{adjustwidth}{\ResumeListTab}{0pt}%
+  \begin{itemize}[
+    leftmargin=0.28in,
+    labelsep=0.08in,
+    labelwidth=0.18in,
+    align=left,
+    label=\ResumeBulletMark,
+    itemsep=3pt,
+    topsep=0pt,
+    parsep=0pt,
+    partopsep=0pt]
+  \fontsize{10pt}{11pt}\selectfont\justifying
+}{%
+  \end{itemize}%
+  \end{adjustwidth}%
+  \vspace{2pt}
+}
+
+% Skills bullets: 10pt body text.
+\newenvironment{skillsBullets}{%
+  \hyphenpenalty=10000\exhyphenpenalty=10000\pretolerance=2000\tolerance=2800\emergencystretch=3em
+  \begin{adjustwidth}{\ResumeListTab}{0pt}%
+  \begin{itemize}[
+    leftmargin=0.28in,
+    labelsep=0.08in,
+    labelwidth=0.18in,
+    align=left,
+    label=\ResumeBulletMark,
+    itemsep=3pt,
+    topsep=2pt,
+    parsep=0pt,
+    partopsep=0pt]
+  \fontsize{10pt}{11pt}\selectfont\justifying
+}{%
+  \end{itemize}%
+  \end{adjustwidth}%
+  \vspace{1pt}
+}
+
+% Bold university name: 11pt. Location: 11pt (same row).
+\newcommand{\educationLine}[2]{%
+  \noindent\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X >{\raggedleft\arraybackslash}p{\ResumeEntryRightCol}@{}}
+    {\fontsize{11pt}{12pt}\selectfont\bfseries #1} & {\fontsize{11pt}{12pt}\selectfont #2} \\
+  \end{tabularx}%
+  \vspace{0pt}
+}
+
+% Degree line: 10pt plain text.
+\newcommand{\degreeLine}[1]{%
+  \noindent{\fontsize{10pt}{11pt}\selectfont #1\par}%
+  \vspace{0pt}
+}
+
+% Wrap cert lines in certActivityBlock so the same tab as lists applies.
+\newenvironment{certActivityBlock}{%
+  \begin{adjustwidth}{\ResumeListTab}{0pt}%
+}{%
+  \end{adjustwidth}%
+}
+
+% Cert rows: 10pt, matching experience/skills bullets.
+\newcommand{\activityLine}[2]{%
+  \noindent\begin{tabularx}{\linewidth}{@{}>{\centering\arraybackslash}m{0.22in} @{\hspace{0.08in}}>{\raggedright\arraybackslash}X r@{}}
+    \ResumeBulletMark
+    & {\fontsize{10pt}{11pt}\selectfont #1} & {\fontsize{10pt}{11pt}\selectfont #2} \\
+  \end{tabularx}%
+  \vspace{0pt}%
+}
+
+\newcommand{\tightvspace}{\vspace{-2pt}}
