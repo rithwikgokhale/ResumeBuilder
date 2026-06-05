@@ -22,5 +22,8 @@ applications/*
 !applications/_TEMPLATE_COMPANY_ROLE/**
 !applications/README.md
 
+# Active JD scratch file is local-only; ship _TEMPLATE_ version instead
+jobs/paste_job_description_here.md
+
 # Optional: uncomment to stop tracking the canonical sample PDF in outputs/
 # outputs/*.pdf

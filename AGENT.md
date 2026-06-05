@@ -52,6 +52,18 @@ bash scripts/build_cover_letter.sh <tex> <dir>  # cover letter → dir
 # Per-application: see README.md "Application resume" section.
 ```
 
+## Pre-push safety
+
+Anytime you are asked to commit/push to git, **only push project-level changes**. Never push job-specific or application-specific content.
+
+Before staging, run `git status` and reject any of these from the commit:
+
+- `applications/<anything>/` other than `applications/_TEMPLATE_COMPANY_ROLE/` and `applications/README.md`.
+- `jobs/paste_job_description_here.md` (the working JD scratch file is gitignored — only `jobs/_TEMPLATE_paste_job_description_here.md` is tracked).
+- Any new file containing a real company name, JD body, or per-application notes/strategy.
+
+If something application-specific is staged, unstage it (`git restore --staged <path>`) and tell Rithwik what was excluded so he can confirm.
+
 ## If stuck
 
 If the JD does not fit a persona, the company/product is unfamiliar in a way that materially changes framing, or you need research — **stop and ask Rithwik**. Recommend switching to a stronger model or using ChatGPT for the strategy pass when appropriate.

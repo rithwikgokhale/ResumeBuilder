@@ -232,6 +232,18 @@ The bullet bank lives at [`docs/bullet_bank/`](docs/bullet_bank/) with one file 
 
 The bullet bank is *derivative*. Do not edit `docs/04_EXPERIENCE_FACT_BANK.md` from a bullet bank update — only Rithwik adds verified facts there.
 
+## Pre-push / commit safety
+
+When Rithwik asks to commit or push, only ship project-level changes. **Never commit job- or application-specific content.**
+
+Before staging, run `git status` and exclude any of these:
+
+- `applications/<anything>/` other than `_TEMPLATE_COMPANY_ROLE/` and `applications/README.md`.
+- `jobs/paste_job_description_here.md` (the working JD scratch is gitignored; only `jobs/_TEMPLATE_paste_job_description_here.md` is tracked).
+- Any file containing a real company name, JD body, or per-application notes/strategy.
+
+If application-specific content is already staged, unstage it (`git restore --staged <path>`) and tell Rithwik what was excluded so he can confirm. Personal-but-not-job-specific content (fact bank, bullet bank, career context, base template resume) is fine to push.
+
 ## One-page overflow rule
 
 If the pasted content does not fit on one page, **do not make autonomous cuts**. Stop, compile, report how many pages the build produces, suggest which bullets are most redundant, and ask Rithwik which specific bullets to remove. Never merge, shorten, or drop bullets on your own to force a one-page fit.

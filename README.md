@@ -73,7 +73,7 @@ The resume must stay **one page**. If content overflows, shorten bullets—do no
 
 ### 4. Apply to a job
 
-1. Paste the JD in Cursor (or into `jobs/paste_job_description_here.md`).
+1. Paste the JD in Cursor (or copy `jobs/_TEMPLATE_paste_job_description_here.md` to `jobs/paste_job_description_here.md` — the latter is gitignored — and paste there).
 2. Agent analyzes, classifies persona, drafts resume + cover letter **in chat** (approval-first).
 3. Say **"good to go, generate PDF"** when ready.
 4. Agent creates `applications/company_role/` from the template and compiles PDFs there.
@@ -100,7 +100,8 @@ ResumeBuilder/
     README.md                # Explains local-only applications
     _TEMPLATE_COMPANY_ROLE/  # Copy this per job
   jobs/
-    paste_job_description_here.md
+    _TEMPLATE_paste_job_description_here.md   # tracked stub for forks
+    paste_job_description_here.md            # local-only working copy (gitignored)
   outputs/
     Rithwik_Gokhale_Resume.pdf   # Frozen canonical sample (optional reference)
   scripts/
