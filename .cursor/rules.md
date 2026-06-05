@@ -2,6 +2,10 @@
 
 You are working inside Rithwik Gokhale's local LaTeX resume and cover letter project.
 
+## First-read entry point
+
+**Always start at [`AGENT.md`](AGENT.md) at the project root.** It is the concise mission brief for any job agent and points to everything else (this file, the fact bank, role personas, bullet bank, and section content).
+
 ## Primary objective
 
 Tailor Rithwik's resume and cover letter for a specific job description while **preserving the approved canonical resume layout** exactly. The calibrated PDF is produced from the locked LaTeX formatting layer plus editable section content.
@@ -211,6 +215,22 @@ Your job is then to:
 7. Flag only genuine issues: unsupported claims, syntax problems, excessive length, or **content** overflow — **not** formatting drift.
 
 Do not substantially rewrite ChatGPT-provided content unless asked.
+
+## Bullet bank workflow
+
+The bullet bank lives at [`docs/bullet_bank/`](docs/bullet_bank/) with one file per role persona: `SWE.md`, `SOLUTIONS_ENGINEER_FDE.md`, `SOLUTIONS_CONSULTANT.md`, `SOLUTIONS_ARCHITECT.md`, `PM.md`.
+
+**Before drafting** for a JD, open the matching role file and pull `## Lead-with bullets` + relevant `## Themed variants` as your starting set. Cross-check every bullet against `docs/04_EXPERIENCE_FACT_BANK.md` (the verified-facts source of truth).
+
+**When new bullets appear** — Rithwik pastes them from another LLM, or you generate them in chat:
+
+1. Classify which role file(s) the bullet supports. A bullet may belong in 1–2 files; cross-link with `(see also: …)`.
+2. If grounded in the fact bank → append under `## Themed variants` in the matching theme.
+3. If not yet grounded → append under `## Imported / unverified` with `(source: imported-<llm>, YYYY-MM-DD)` or `(source: chat YYYY-MM-DD)`.
+4. Never duplicate. If overlap exists, add `(see also: …)` and stop.
+5. Confirm in chat what was added and where so Rithwik can sanity check.
+
+The bullet bank is *derivative*. Do not edit `docs/04_EXPERIENCE_FACT_BANK.md` from a bullet bank update — only Rithwik adds verified facts there.
 
 ## One-page overflow rule
 

@@ -3,7 +3,7 @@
 Paste this into a new Cursor agent chat when starting work in this project.
 
 ```text
-Read README.md, .cursor/rules.md, and every file in docs/. Then read latex/main.tex, latex/resume-style.sty, latex/sections/*.tex, and latex/cover_letter/*.tex.
+Read AGENT.md first (root-level mission brief). Then read README.md, .cursor/rules.md, every file in docs/ (including docs/bullet_bank/), latex/main.tex, latex/resume-style.sty, latex/sections/*.tex, and latex/cover_letter/*.tex.
 
 This is my local LaTeX resume and cover letter project. I will paste job descriptions or job links here. I want you to tailor my resume and generate a cover letter by default for each job.
 

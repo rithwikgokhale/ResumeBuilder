@@ -150,11 +150,14 @@ Full rules: [`.cursor/rules.md`](.cursor/rules.md)
 
 | Doc | Topic |
 |-----|--------|
+| [`AGENT.md`](AGENT.md) | **First read for any job agent** — concise mission brief |
+| [`docs/bullet_bank/`](docs/bullet_bank/) | Per-role bullet libraries (SWE, SE/FDE, Consultant, Architect, PM) |
 | [`docs/00_START_HERE_PRIMARY_CURSOR_PROMPT.md`](docs/00_START_HERE_PRIMARY_CURSOR_PROMPT.md) | Primary agent instructions |
 | [`docs/02_RESUME_FORMAT_SPEC.md`](docs/02_RESUME_FORMAT_SPEC.md) | Visual/layout spec |
 | [`docs/04_EXPERIENCE_FACT_BANK.md`](docs/04_EXPERIENCE_FACT_BANK.md) | Verified experience + canonical bullets |
 | [`docs/05_JOB_TAILORING_PLAYBOOK.md`](docs/05_JOB_TAILORING_PLAYBOOK.md) | How to tailor per JD |
 | [`docs/07_LOCAL_WORKFLOW.md`](docs/07_LOCAL_WORKFLOW.md) | Build commands and workflow |
+| [`docs/10_ROLE_PERSONAS_RESUME_STRATEGY.md`](docs/10_ROLE_PERSONAS_RESUME_STRATEGY.md) | Role personas + bullet ordering |
 | [`docs/15_APPROVAL_FIRST_WORKFLOW.md`](docs/15_APPROVAL_FIRST_WORKFLOW.md) | Review before PDFs |
 | [`docs/19_FIRST_AGENT_PROMPTS.md`](docs/19_FIRST_AGENT_PROMPTS.md) | Copy-paste Cursor prompts |
 
