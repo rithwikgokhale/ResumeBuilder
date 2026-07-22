@@ -11,19 +11,20 @@ Tailor Rithwik Gokhale's one-page LaTeX resume + cover letter for a specific JD 
 1. This file.
 2. [`.cursor/rules.md`](.cursor/rules.md) — full rules (formatting lock, truthfulness, approval workflow).
 3. [`docs/04_EXPERIENCE_FACT_BANK.md`](docs/04_EXPERIENCE_FACT_BANK.md) — verified facts. Do not invent beyond this.
-4. [`docs/10_ROLE_PERSONAS_RESUME_STRATEGY.md`](docs/10_ROLE_PERSONAS_RESUME_STRATEGY.md) — persona definitions + bullet ordering per persona.
-5. [`docs/bullet_bank/`](docs/bullet_bank/) — pick the file matching the JD's persona before drafting:
+4. [`docs/20_MASTER_CAREER_BIO_DATA_BANK.md`](docs/20_MASTER_CAREER_BIO_DATA_BANK.md) — comprehensive bio data bank (imported from ChatGPT, 2026-07-22). Supplements the fact bank with deeper career context, approved title variants, and claim-strength labels. Respect its per-fact claim-strength rules (canonical vs. estimated vs. do-not-claim).
+5. [`docs/10_ROLE_PERSONAS_RESUME_STRATEGY.md`](docs/10_ROLE_PERSONAS_RESUME_STRATEGY.md) — persona definitions + bullet ordering per persona.
+6. [`docs/bullet_bank/`](docs/bullet_bank/) — pick the file matching the JD's persona before drafting:
    - [`SWE.md`](docs/bullet_bank/SWE.md) — Software Engineer
    - [`SOLUTIONS_ENGINEER_FDE.md`](docs/bullet_bank/SOLUTIONS_ENGINEER_FDE.md) — Solutions Engineer / FDE
    - [`SOLUTIONS_CONSULTANT.md`](docs/bullet_bank/SOLUTIONS_CONSULTANT.md) — Implementation / Solutions Consultant
    - [`SOLUTIONS_ARCHITECT.md`](docs/bullet_bank/SOLUTIONS_ARCHITECT.md) — Solutions / Application Architect
    - [`PM.md`](docs/bullet_bank/PM.md) — Product / Program Manager / TPM
-6. [`latex/sections/`](latex/sections/) — current canonical content.
+7. [`latex/sections/`](latex/sections/) — current canonical content.
 
 ## Workflow (5 steps)
 
 1. **Classify** the JD into one primary persona (see doc 10).
-2. **Draft** the full tailored resume + cover letter **in chat**. Pull bullets from the matching bullet-bank file; ground every claim in the fact bank.
+2. **Draft** the full tailored resume + cover letter **in chat**. Pull bullets from the matching bullet-bank file; ground every claim in the fact bank and the bio data bank (doc 20).
 3. **Wait** for "good to go, generate PDF" (or equivalent).
 4. **Compile** into `applications/<company_role>/` (lowercase snake_case) using the template structure.
 5. **Verify** the resume PDF is one US Letter page.
@@ -32,7 +33,7 @@ Tailor Rithwik Gokhale's one-page LaTeX resume + cover letter for a specific JD 
 
 - **Layout locked.** Never edit `latex/resume-style.sty` or `latex/main.tex` for tailoring.
 - **One page**, always. If overflow, stop and ask which bullets to drop — never auto-cut.
-- **No invented facts.** Only use `docs/04_EXPERIENCE_FACT_BANK.md` (and bullets from the role bank that ground back to it).
+- **No invented facts.** Only use `docs/04_EXPERIENCE_FACT_BANK.md` and `docs/20_MASTER_CAREER_BIO_DATA_BANK.md` (and bullets from the role bank that ground back to them). When using doc 20, honor its claim-strength labels — never state a "do not claim" item, and use conservative ends of estimated ranges unless approved.
 - **NVIDIA and Dolby titles are fixed.** Only the Adatafy/Novaspect title may shift for positioning.
 - **Applications stay local.** Real job folders are gitignored; only the template is committed.
 - **Approval-first.** No final files or PDFs before Rithwik approves the chat draft.

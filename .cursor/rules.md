@@ -50,10 +50,11 @@ The **formatting source of truth** is the current tree:
 ## Non-negotiable truthfulness rules
 
 1. Never invent experience, employers, degrees, certifications, metrics, tools, technologies, clients, or outcomes.
-2. Reframe only from the verified source material in `docs/04_EXPERIENCE_FACT_BANK.md`, the current LaTeX files, uploaded resume source files, and user-provided facts in chat.
-3. Do not keyword-stuff. Include a keyword only when supported by real experience.
-4. A rewritten bullet must be more relevant, specific, technically clear, quantified, readable, or defensible than the original.
-5. Never trade a strong, specific bullet for generic corporate filler.
+2. Reframe only from the verified source material in `docs/04_EXPERIENCE_FACT_BANK.md`, `docs/20_MASTER_CAREER_BIO_DATA_BANK.md`, the current LaTeX files, uploaded resume source files, and user-provided facts in chat.
+3. `docs/20_MASTER_CAREER_BIO_DATA_BANK.md` is the comprehensive bio data bank (imported 2026-07-22). Consult it for every new resume/cover letter: it carries deeper career context, approved Adatafy title variants, persona guidance, and per-fact claim-strength labels. Honor those labels — never state a "do not claim" item, qualify prototype/demo work as such, and default to the conservative end of estimated ranges unless Rithwik approves a stronger figure.
+4. Do not keyword-stuff. Include a keyword only when supported by real experience.
+5. A rewritten bullet must be more relevant, specific, technically clear, quantified, readable, or defensible than the original.
+6. Never trade a strong, specific bullet for generic corporate filler.
 
 ## Approval-first workflow
 
@@ -113,7 +114,7 @@ The resume must be customized for the specific job, including Experience and Ski
 
 ## Job title rule
 
-Only the current Adatafy/Novaspect job title may be adjusted for positioning.
+Only the current Adatafy/Novaspect job title may be adjusted for positioning. The full approved list of title variants and employer display options lives in `docs/20_MASTER_CAREER_BIO_DATA_BANK.md` ("Approved title handling").
 
 Allowed examples depending on the JD:
 
@@ -220,7 +221,7 @@ Do not substantially rewrite ChatGPT-provided content unless asked.
 
 The bullet bank lives at [`docs/bullet_bank/`](docs/bullet_bank/) with one file per role persona: `SWE.md`, `SOLUTIONS_ENGINEER_FDE.md`, `SOLUTIONS_CONSULTANT.md`, `SOLUTIONS_ARCHITECT.md`, `PM.md`.
 
-**Before drafting** for a JD, open the matching role file and pull `## Lead-with bullets` + relevant `## Themed variants` as your starting set. Cross-check every bullet against `docs/04_EXPERIENCE_FACT_BANK.md` (the verified-facts source of truth).
+**Before drafting** for a JD, open the matching role file and pull `## Lead-with bullets` + relevant `## Themed variants` as your starting set. Cross-check every bullet against `docs/04_EXPERIENCE_FACT_BANK.md` (the verified-facts source of truth) and `docs/20_MASTER_CAREER_BIO_DATA_BANK.md` (the comprehensive bio data bank with claim-strength labels).
 
 **When new bullets appear** — Rithwik pastes them from another LLM, or you generate them in chat:
 
