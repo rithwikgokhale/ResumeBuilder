@@ -32,6 +32,13 @@ Persona references:
 - Built **LLM-powered SME assistant agents** in Augmentir; iterated prompt templates, knowledge structuring, and response guardrails using user feedback to improve operator guidance and self-serve support. *(source: canonical)*
   - (see also: `SWE.md`)
 
+#### Integrations emphasis (SAP PM + vendor-API breadth)
+
+- Designed and built **API integrations** across manufacturing software, including **Shiftconnector (Seqonis) to SAP PM** and connections from Augmentir and GoCanvas to SAP/ERP, CMMS, historians, alarms/events, and equipment logs via REST/JSON APIs; ramped quickly on new vendor APIs and validated end-to-end with Postman and acceptance testing. *(source: chat 2026-09-02, Leena AI FDE)*
+  - grounded in: [`../04_EXPERIENCE_FACT_BANK.md`](../04_EXPERIENCE_FACT_BANK.md) → "Shiftconnector (Seqonis) to SAP PM integration and vendor-API breadth"
+- Solved deployment challenges across **SaaS, on-prem, and hybrid customer environments**, resolving SSO/Active Directory, SQL Server, API, and data issues for **30--100+ user** deployments; first-line post-go-live escalation and runbook owner. *(source: chat 2026-09-02, Leena AI FDE)*
+  - grounded in: [`../04_EXPERIENCE_FACT_BANK.md`](../04_EXPERIENCE_FACT_BANK.md) → "Support and post-go-live ownership", "Integrations and enterprise systems"
+
 #### FDE-leaning emphasis (deployment + field outcomes)
 
 - Owned end-to-end delivery from discovery through hypercare across SaaS, on-prem, and hybrid customer environments; coordinated integrations, data flows, access/SSO, validation needs, and rollout sequencing. *(source: canonical)*

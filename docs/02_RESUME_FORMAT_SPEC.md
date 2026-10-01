@@ -66,6 +66,10 @@ If the PDF spills to two pages:
 3. Trim certifications only if necessary.
 4. **Do not** shrink fonts, margins, or list spacing unless Rithwik explicitly approves a formatting change.
 
+## Unused space (content only)
+
+After compile, look at the PDF. The locked bottom margin is not waste. If another one- or two-line bullet would still fit, add the next strongest verified, role-relevant bullet. Do not pad with filler, and do not change fonts, margins, or `.sty` spacing to fill the gap. If the addition spills to page 2, shorten or drop it and recompile. If no verified relevant fact remains, leave the space and say so.
+
 ## Build output
 
 Baseline compile:

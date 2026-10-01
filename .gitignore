@@ -25,5 +25,6 @@ applications/*
 # Active JD scratch file is local-only; ship _TEMPLATE_ version instead
 jobs/paste_job_description_here.md
 
-# Optional: uncomment to stop tracking the canonical sample PDF in outputs/
-# outputs/*.pdf
+# Job-specific PDFs must not land in outputs/. Only the canonical sample resume is tracked.
+outputs/*
+!outputs/Rithwik_Gokhale_Resume.pdf

@@ -27,6 +27,7 @@ The resume must match the **approved baseline** in `latex/resume-style.sty` and 
 ## Formatting QA
 
 - [ ] One page only.
+- [ ] No wasted body space: if another verified, role-relevant bullet would still fit above the locked bottom margin, add it. Do not fill the gap by changing fonts, margins, or spacing.
 - [ ] Name centered.
 - [ ] Contact row centered; links underlined and clickable.
 - [ ] Section headings are blue with extended divider rules per spec.

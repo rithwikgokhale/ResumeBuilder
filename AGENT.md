@@ -33,6 +33,7 @@ Tailor Rithwik Gokhale's one-page LaTeX resume + cover letter for a specific JD 
 
 - **Layout locked.** Never edit `latex/resume-style.sty` or `latex/main.tex` for tailoring.
 - **One page**, always. If overflow, stop and ask which bullets to drop — never auto-cut.
+- **No wasted space.** After compile, look at the PDF. The locked bottom margin is not waste. If another one- or two-line bullet would still fit, add the next strongest verified, role-relevant bullet from the fact bank. Do not pad with filler, and do not change fonts, margins, or `.sty` spacing to fill the gap. If the addition spills to page 2, shorten or drop it and recompile. If no verified relevant fact remains, leave the space and say so.
 - **No invented facts.** Only use `docs/04_EXPERIENCE_FACT_BANK.md` and `docs/20_MASTER_CAREER_BIO_DATA_BANK.md` (and bullets from the role bank that ground back to them). When using doc 20, honor its claim-strength labels — never state a "do not claim" item, and use conservative ends of estimated ranges unless approved.
 - **NVIDIA and Dolby titles are fixed.** Only the Adatafy/Novaspect title may shift for positioning.
 - **Applications stay local.** Real job folders are gitignored; only the template is committed.

@@ -249,6 +249,10 @@ If application-specific content is already staged, unstage it (`git restore --st
 
 If the pasted content does not fit on one page, **do not make autonomous cuts**. Stop, compile, report how many pages the build produces, suggest which bullets are most redundant, and ask Rithwik which specific bullets to remove. Never merge, shorten, or drop bullets on your own to force a one-page fit.
 
+## One-page unused-space check
+
+After every resume compile, look at the PDF before calling it done. The locked bottom margin is not waste. If the last section ends high enough that another one- or two-line bullet would still fit on the page, add the next strongest verified, role-relevant bullet from the fact bank. Do not fill the gap with filler, keyword lists, or invented metrics. Do not change fonts, margins, or `.sty` spacing to consume it. If that addition spills onto page 2, shorten it or remove it and recompile. If no verified relevant fact is left, leave the space and tell Rithwik.
+
 ## Canonical master vs. application copies
 
 `latex/sections/*.tex` is the **canonical master** — it holds the full approved content exactly as Rithwik has approved. **Never cut bullets from the canonical sections to fit a one-page application target.**
