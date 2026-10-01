@@ -23,7 +23,7 @@ Persona references:
 
 ### TPM-leaning
 
-- Delivered **8–9 enterprise digital transformation and MES implementations** end-to-end across pharma, food, utilities, and chemicals; coordinated discovery, integrations, **UAT/validation**, go-live, training, and hypercare across multi-site **30–100 user** deployments. *(source: canonical)*
+- Delivered approximately **10 completed industrial software implementations** end-to-end across pharma, food, utilities, biofuels, and chemicals; coordinated discovery, integrations, **UAT/validation**, go-live, training, and hypercare across **30-150 user** deployments. *(source: canonical, metrics updated Oct 2026)*
   - grounded in: [`../04_EXPERIENCE_FACT_BANK.md`](../04_EXPERIENCE_FACT_BANK.md) → "Enterprise implementations"
 - Drove cross-functional execution through **Jira backlogs**, weekly agile review cadences, phased rollout plans, and runbooks/deployment checklists. *(source: canonical)*
   - grounded in: [`../04_EXPERIENCE_FACT_BANK.md`](../04_EXPERIENCE_FACT_BANK.md) → "Discovery and solution design" + "Demos, presales, enablement, and training"
@@ -35,8 +35,21 @@ Persona references:
 - Served as a **domain-embedded technical advisor** for regulated manufacturing stakeholders; translated processes, compliance needs, pain points, and success metrics into scalable workflow architectures, phased roadmaps, and adoption plans. *(source: canonical)*
 - Led the **AbbVie Chicago pilot plant Shiftconnector deployment** for **50+** manufacturing users; owned shift handover, production logs, logbooks, CSV workflows, custom views, and email/communication features through release. *(source: canonical, AbbVie-specific)*
 - Owned weekly **agile review cadence** with stakeholders covering requirements, progress, blockers, and feedback through release. *(source: canonical)*
-- Delivered **50–70 tailored pre-sales technical demos per year**, converting customer workflows and pain points into clear feature/value messaging and product feedback for internal teams. *(source: canonical)*
+- Delivered **30-40 tailored technical demos per year**, converting customer workflows and pain points into clear feature/value messaging and product feedback for internal teams. *(source: canonical, metric updated Oct 2026)*
 - Hosted technical webinars and a **video podcast series** on MES/digital transformation topics; led admin/key-user and end-user trainings. *(source: canonical)*
+
+#### Forward-deployed product and ERP
+
+- Led **4-5 concurrent projects** at the busiest point, including two priority enterprise rollouts; owned schedules, scope decisions, client conversations, progress tracking, and status updates, and completed them within their deadlines. *(source: chat 2026-10-01)*
+  - grounded in: [`../04_EXPERIENCE_FACT_BANK.md`](../04_EXPERIENCE_FACT_BANK.md) → "Forward-deployed product and ERP implementation details" → "Project ownership"
+- Helped develop the first **Shiftconnector (Seqonis)-to-SAP PM** integration while leading client-facing use-case development and testing; contributed to development and helped convert the initial implementation into a reusable standalone offering. Another engineer led the primary coding effort. *(source: chat 2026-10-01)*
+  - grounded in: [`../04_EXPERIENCE_FACT_BANK.md`](../04_EXPERIENCE_FACT_BANK.md) → "Shiftconnector (Seqonis) to SAP PM integration and vendor-API breadth"
+- Proposed and designed a **one-click testing product** for a Fortune 500 food manufacturer, replacing manually run unit-test scripts; wrote the core test-execution code covering about **50 tests across 11 functions** connecting Augmentir, a central data fabric, and SAP PM/ERP workflows. Other engineers built the data-import and email pieces. The feature runs the tests from one action, shows results on a dashboard, generates a report, and emails recipients, and is used at several sites in the United States and Mexico. *(source: chat 2026-10-01)*
+  - grounded in: [`../04_EXPERIENCE_FACT_BANK.md`](../04_EXPERIENCE_FACT_BANK.md) → "One-click testing product"
+- Mapped **source fields to destination fields**, cleaned and organized functional-location and asset data for import, designed simple source-to-destination field relationships, and migrated historical data from one historian to another; validated mappings and transformed data before release. *(source: chat 2026-10-01)*
+  - grounded in: [`../04_EXPERIENCE_FACT_BANK.md`](../04_EXPERIENCE_FACT_BANK.md) → "Data mapping, preparation, and migration"
+- Created reusable **Seqonis** form-configuration, configuration, and deployment tools; escalated customer feedback that became a platform feature; and designed the internal project-management lifecycle used across the team's workflow solutions. Existing deployment automation reduced manual setup by up to **60%**. *(source: chat 2026-10-01)*
+  - grounded in: [`../04_EXPERIENCE_FACT_BANK.md`](../04_EXPERIENCE_FACT_BANK.md) → "Reusable capabilities and process improvements"
 
 ### NVIDIA — Enterprise XR Technical Product Management Intern *(title fixed)*
 
@@ -70,4 +83,4 @@ Persona references:
 
 ## Imported / unverified (review before use)
 
-_Empty. Append new bullets here with `(source: imported-<llm>, YYYY-MM-DD)` until grounded in the fact bank._
+_Empty. The Oct 2026 forward-deployed product bullets were moved to Adatafy variants after the facts were added to the fact bank._

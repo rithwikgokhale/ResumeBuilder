@@ -13,11 +13,11 @@ Dates: June 2022 - Present
 
 ### Enterprise implementations
 
-- Delivered approximately **10** completed industrial software implementations. (Reconfirmed by Rithwik Sep 30, 2026. Do not revert to 8--9.)
+- Delivered approximately **10** completed industrial software implementations. **Final approved metric** for future resume and cover-letter content (reconfirmed Sep 30, 2026). Superseded: 8--9. Do not use.
 - Industries include pharma, food, campus utilities, biofuels, and chemicals.
 - Owned end-to-end delivery from discovery through hypercare.
 - Delivery phases include discovery, solution design, integrations, UAT/validation, go-live, training, and hypercare.
-- Worked with multi-site deployments of roughly **30-150 users**. (Updated Sep 2026 from earlier 30-100 range.)
+- Worked with multi-site deployments of roughly **30-150 users**. **Final approved metric** for the relevant multi-site/site deployment range (updated Sep 2026). Superseded: 30-100. Do not use.
 
 ### Discovery and solution design
 
@@ -80,7 +80,7 @@ emphasizes shipping code, testing rigor, or building workflow logic. Verified Ju
 
 ### Demos, presales, enablement, and training
 
-- Delivered roughly **30-40 tailored technical demos per year**. (Updated Sep 2026 — do not use the older 50-70 figure.)
+- Delivered roughly **30-40 tailored technical demos per year**. **Final approved metric** for future resume and cover-letter content (updated Sep 2026). Superseded: 50-70. Do not use.
 - Translated operational pain points into feature/value messaging.
 - Presented implementation approaches and product feedback for internal teams.
 - Hosted or supported technical webinars and a video podcast series on MES/digital transformation topics.
@@ -97,17 +97,94 @@ emphasizes shipping code, testing rigor, or building workflow logic. Verified Ju
 
 ### SAP integrations, OCR, and reusable bespoke software (self-reported by Rithwik, Aug 2026)
 
-- Built SAP-related integrations connecting SAP with other manufacturing platforms.
+- Worked on SAP-related integrations connecting SAP with other manufacturing platforms. Do not describe the first Shiftconnector (Seqonis)-to-SAP PM integration as solely built by Rithwik; another engineer led the primary coding effort. See the Oct 2026 section below.
 - Developed an OCR proof of concept for document data extraction that is now used internally at work. (Document types and stack not yet captured; sharpen with Rithwik before use in high-scrutiny applications. Keep the "proof of concept" qualifier.)
 - Built multiple customized, made-to-order software pieces for specific clients — primarily integrations — that are reused repeatedly across different clients.
 - Resume-safe framing: "Converted bespoke client-specific integrations into reusable components redeployed across multiple clients."
 
-### Shiftconnector (Seqonis) to SAP PM integration and vendor-API breadth (self-reported by Rithwik, Sep 2026)
+### Shiftconnector (Seqonis) to SAP PM integration and vendor-API breadth (corrected Oct 2026)
 
-- Built a Shiftconnector integration with SAP PM (Plant Maintenance). Note: eschbach renamed Shiftconnector to **Seqonis** in 2026 (verified via web search, Sep 2026); display as "Shiftconnector (Seqonis)" so both names hit ATS.
-- Sub-details (notification types, interfaces such as OData/RFC/BAPI/IDoc, direction of sync) are NOT yet captured. Keep the claim at "SAP PM integration" until Rithwik sharpens it.
+Display the product as **Shiftconnector (Seqonis)** so both the former and current names are represented. eschbach renamed Shiftconnector to Seqonis in 2026.
+
+Resume-safe wording:
+
+> Helped develop the first Shiftconnector (Seqonis)-to-SAP PM integration while leading client-facing use-case development and testing; contributed to development and helped convert the initial implementation into a reusable standalone offering. Another engineer led the primary coding effort.
+
+Ownership limits:
+
+- Another engineer led the primary coding effort. Never claim Rithwik was the sole developer.
+- Rithwik led the client-facing work, use-case development, and integration/workflow testing.
+- Rithwik contributed to development and helped map and import SAP PM and operational data into Seqonis.
+- Rithwik helped turn the initial integration into a reusable standalone offering for customers operating both Seqonis and SAP.
+- Never imply SAP module consulting or ownership of a complete SAP implementation.
+- The precise SAP interface technology (OData, RFC, BAPI, IDoc, or otherwise) has not been confirmed. Do not name one.
+
+Other integration facts:
+
 - Has worked with many different vendor APIs across manufacturing-world software and is comfortable ramping on unfamiliar APIs. Resume-safe framing: "ramped quickly on new vendor APIs."
-- Still honor the doc 20 SAP nuance: integration and workflow-testing exposure, not SAP module consulting.
+
+### Forward-deployed product and ERP implementation details (self-reported by Rithwik, Oct 2026)
+
+Durable career facts. Do not add a target company, job description, or application strategy here.
+
+#### Project ownership
+
+- At the busiest point, led 4-5 concurrent projects.
+- Two were priority enterprise rollouts.
+- Owned schedules, scope decisions, client conversations, progress tracking, and client status updates.
+- All of these projects were completed within their deadlines.
+- Used his own systems to retain meeting information, track progress, and prevent action items or project details from being lost.
+- At project initiation, commonly worked with executives, vendors, and client IT.
+- During development and rollout, commonly worked with plant managers and lead operators.
+- Trained key users, who then helped train or enable the broader operator population.
+- The work functioned as an embedded engineering/product/project-management role with end-to-end responsibility.
+
+#### SAP PM and operator workflows
+
+- The SAP PM integration involved maintenance information, work orders, asset information, material information, and related operational workflows.
+- The relevant data was imported or mapped into Shiftconnector (Seqonis).
+- Operators executed the resulting operational workflows in Seqonis.
+- Rithwik personally led the client-side use-case development and integration testing.
+- Rithwik contributed to development, but another engineer led the primary coding effort.
+- The initial integration became a reusable standalone product/offering for customers that have both Seqonis and SAP.
+- Do not name an unconfirmed SAP interface technology, and do not claim SAP module configuration or consulting ownership.
+
+#### Data mapping, preparation, and migration
+
+- Mapped source fields to destination fields.
+- Cleaned, formatted, and organized functional-location and asset data before importing it into the destination system.
+- Designed simple relationships between data-field types in source and destination platforms.
+- Migrated historical data from one historian to another.
+- Validated mappings and transformed data before release.
+- Client names for this work are confidential and must not be included.
+
+#### One-click testing product
+
+- Completed for a Fortune 500 food manufacturer. Do not name the client.
+- The system covered approximately 50 tests across 11 functions.
+- The functions connected the client’s Augmentir connected-worker solution to a central data fabric and the appropriate fields/workflows in SAP PM and ERP.
+- The original process involved manually running unit-test scripts.
+- Rithwik proposed and designed enhancements that turned the manual process into a one-click testing product.
+- Rithwik wrote the core code for the test-execution capability.
+- Other engineers worked on the data-import and email functionality.
+- The feature executes the tests together from one action.
+- It confirms and displays results in a dashboard.
+- It generates a report.
+- It emails the appropriate recipients.
+- Requirements and acceptance criteria were developed through detailed client discovery conversations and converted into user stories.
+- Final validation tested the delivered product against the agreed user stories and use cases.
+- The project was successfully completed.
+- The framework is now used at several sites across the United States and Mexico.
+- Do not imply that Rithwik independently wrote every component. Distinguish his core-code and product/use-case ownership from the components coordinated with other engineers.
+
+#### Reusable capabilities and process improvements
+
+- Created reusable Seqonis form-configuration scripts.
+- Created reusable configuration and deployment scripts/tools.
+- Escalated customer feedback that became a platform feature.
+- Helped turn the first Seqonis-SAP integration into a repeatable standalone offering.
+- Designed and iterated the internal project-management lifecycle used across the workflow solutions the team offers.
+- Existing verified deployment automation reduced manual setup effort by up to 60%. Do not invent extra supporting detail for that figure, and do not reassign it to a different tool.
 
 ## Adatafy / Novaspect - client facts (verified, use only if Rithwik confirms for a given submission)
 
@@ -118,11 +195,11 @@ emphasizes shipping code, testing rigor, or building workflow logic. Verified Ju
 - Workflows: shift handover, production logs, operational notes, logbooks, CSV-based workflows, custom views, email/communication functionality.
 - Owned the weekly agile review cadence with stakeholders (requirements, progress, blockers, feedback).
 
-## Adatafy / Novaspect - canonical bullet set (approved May 2026, fits 1 page)
+## Adatafy / Novaspect - canonical bullet set (metrics updated Oct 2026)
 
-These are the exact bullets in `latex/sections/experience.tex` as of the approved canonical baseline. Use as the starting point for all tailoring. Keep wording tight — this set fills one page with the current style settings.
+Use this as the starting point for tailoring. The checked-in `latex/sections/experience.tex` still contains the May 2026 wording, including the superseded 8--9 implementation count. Do not copy that superseded count forward. Active wording below uses the final approved metrics.
 
-1. Delivered 8--9 enterprise digital transformation and MES implementations across pharma, food, utilities, and chemicals; owned solution architecture from discovery and process mapping through UAT/validation, go-live, training, and hypercare.
+1. Delivered approximately 10 completed industrial software implementations across pharma, food, utilities, biofuels, and chemicals; owned solution architecture from discovery and process mapping through UAT/validation, go-live, training, and hypercare.
 2. Served as a domain-embedded technical advisor for regulated manufacturing stakeholders; translated processes, compliance needs, pain points, and success metrics into scalable workflow architectures, phased roadmaps, and adoption plans.
 3. Led the AbbVie Chicago pilot plant Shiftconnector deployment for 50+ manufacturing users; architected shift handover, production logs, logbooks, CSV workflows, custom views, and email/communication features to improve operational visibility.
 4. Designed integration and data-flow patterns connecting Shiftconnector, Augmentir, and GoCanvas with SAP/ERP, CMMS, historians, alarms/events, and equipment logs using REST/JSON APIs, structured mapping, and system acceptance testing.
@@ -137,10 +214,10 @@ Use these when bullet 3 needs to be replaced or when the JD calls for a differen
 
 ### General Solutions Engineer / FDE
 
-- Delivered 8-9 B2B SaaS digital transformation implementations across pharma, food, campus utilities, and chemicals, owning discovery, solution design, integrations, UAT/validation, go-live, training, and hypercare.
+- Delivered approximately 10 completed industrial software implementations across pharma, food, campus utilities, biofuels, and chemicals, owning discovery, solution design, integrations, UAT/validation, go-live, training, and hypercare.
 - Led onsite discovery and configuration workshops with operators and business stakeholders; translated operational pain points into process maps, solution architecture diagrams, Jira backlogs, and phased rollout plans.
 - Integrated Shiftconnector, Augmentir, and GoCanvas with SAP/ERP, CMMS, historians, alarms/events, and equipment logs via REST/JSON APIs; validated end-to-end behavior through Postman testing and system acceptance testing.
-- Delivered 50-70 tailored pre-sales technical demos per year, converting customer workflows and pain points into clear feature/value messaging, implementation approach, and product feedback.
+- Delivered 30-40 tailored technical demos per year, converting customer workflows and pain points into clear feature/value messaging, implementation approach, and product feedback.
 
 ### Software / Integration Engineer
 
@@ -149,7 +226,7 @@ Use these when bullet 3 needs to be replaced or when the JD calls for a differen
 - Triaged production issues across multi-site deployments by reproducing bugs, analyzing logs/data, validating integrations, and delivering fixes or workarounds.
 - Built TypeScript/JavaScript and Python functions for Augmentir field-operator workflows, implementing issue/action/suggestion routing logic, UI-triggered behaviors, validation rules, and tested decision-support flows.
 - Wrote 20-55 unit tests per Augmentir function across happy-path, positive, negative, and edge-case scenarios to validate routing behavior, operator inputs, and workflow outcomes before release.
-- Debugged production SSO, API, workflow, reporting, and data issues for 30-100+ user deployments by reproducing failures, inspecting logs/payloads, validating data paths, isolating root causes, and documenting fixes in runbooks.
+- Debugged production SSO, API, workflow, reporting, and data issues for 30-150 user deployments by reproducing failures, inspecting logs/payloads, validating data paths, isolating root causes, and documenting fixes in runbooks.
 
 ### AI / Automation
 
@@ -313,7 +390,7 @@ Platforms: Shiftconnector, Augmentir, GoCanvas, AspenTech Inmation
 
 Use these on the TVS Next resume. Do not treat them as a global overwrite of the September 2026 tightened counts unless Rithwik says to.
 
-- For this resume he chose the older bio scale: about 12 implementations, 50–70 demos per year, 500+ cumulative users, 150–200 paper logs/forms, audit-prep reduction of up to 80%, adoption helped to about 60–70%.
+- Historical exception only. Superseded for general use. Do not use these older figures on new resumes: about 12 implementations, 50-70 demos per year, 500+ cumulative users, 150-200 paper logs/forms, audit-prep reduction of up to 80%, adoption helped to about 60-70%. They were chosen for that one resume and are not the final approved metrics.
 - Scoped with customers: OEE, SCADA, PLC, predictive maintenance. Say "scoped" or "use-case scoping." Do not claim PLC programming or SCADA engineering.
 - Delivered: quality analytics, production monitoring, and energy management.
 - Additional industries he confirmed: industrial equipment and consumer chemical products.
