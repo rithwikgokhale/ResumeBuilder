@@ -186,6 +186,31 @@ Durable career facts. Do not add a target company, job description, or applicati
 - Designed and iterated the internal project-management lifecycle used across the workflow solutions the team offers.
 - Existing verified deployment automation reduced manual setup effort by up to 60%. Do not invent extra supporting detail for that figure, and do not reassign it to a different tool.
 
+#### Customer outcomes (self-reported by Rithwik, Oct 2026)
+
+- Every project he has led has been completed successfully.
+- "Successfully" means the project was completed. Do not turn it into an unsupported revenue, adoption, satisfaction, or retention metric.
+- More than half of his customers returned for an expansion or second phase. Use "more than half." Do not invent a precise percentage.
+- He can provide customer references if requested.
+
+#### Travel and onsite delivery (self-reported by Rithwik, Oct 2026)
+
+Onsite activities are also listed under Foundry-verified facts. Do not duplicate them as a second, conflicting account.
+
+- Has experience traveling to customer sites.
+- Onsite work has included discovery, configuration, user testing, training, go-live, and hypercare.
+- Comfortable traveling as a future role requires.
+- A separate, older note says he was willing to travel 40–60% to North American plants for one application. Do not replace this broader statement with that older range, and do not put either travel preference on a resume unless he asks.
+
+#### Personal context for customer communication (self-reported by Rithwik, Oct 2026)
+
+- Grew up in multiple countries.
+- Learning to listen, understand unfamiliar contexts, and connect with people was an important part of adapting to new countries.
+- Suitable for cover-letter or interview narratives about customer empathy, communication, and relationship building.
+- Do not invent a list of countries, languages, immigration experiences, or specific personal stories.
+- Do not turn this into a resume bullet unless he asks.
+- Relocation plans are current application context, not a durable resume fact. Record them in the relevant application notes rather than here.
+
 ## Adatafy / Novaspect - client facts (verified, use only if Rithwik confirms for a given submission)
 
 - AbbVie is a confirmed client environment supported through Adatafy/Novaspect.
