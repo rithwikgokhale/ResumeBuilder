@@ -93,10 +93,11 @@ Only create final files and compile PDFs after Rithwik says something like:
 3. If the role does not fit these personas, ask Rithwik before continuing and recommend switching to a stronger model or using ChatGPT for strategy if needed.
 4. Evaluate Rithwik's fit honestly: strong / medium / weak.
 5. Decide which proof points matter most.
-6. Draft a full tailored resume in chat.
-7. Draft a cover letter in chat **by default**.
-8. Wait for approval.
-9. After approval, create an application folder and final PDFs.
+6. If a needed claim is not already in the fact bank, ask the few questions that would change the draft. When Rithwik answers, add or update the durable facts in `docs/04_EXPERIENCE_FACT_BANK.md` before drafting.
+7. Draft a full tailored resume in chat.
+8. Draft a cover letter in chat **by default**.
+9. Wait for approval.
+10. After approval, create an application folder and final PDFs.
 
 ## Content strategy responsibilities
 
@@ -139,13 +140,12 @@ Most bullets should follow:
 Action Verb + Work Done + Context/Method + Scope/Scale + Outcome/Value
 ```
 
-Use numbers where real numbers exist. Examples available in the fact bank include:
+Use numbers where real numbers exist. Current final figures in the fact bank include:
 
-- 8-9 enterprise implementations
-- 50-70 technical demos per year
-- 30-100 user deployments
-- 30-40 participant trainings
-- 3-6 month initiatives
+- approximately 10 completed industrial software implementations (do not use 8-9)
+- 30-40 tailored technical demos per year (do not use 50-70)
+- 30-150 users for the relevant deployment range (do not use 30-100)
+- up to 60% less manual setup via deployment automation
 - 50% meeting reduction at Dolby
 - 30% cycle time reduction at Dolby
 
@@ -231,7 +231,23 @@ The bullet bank lives at [`docs/bullet_bank/`](docs/bullet_bank/) with one file 
 4. Never duplicate. If overlap exists, add `(see also: …)` and stop.
 5. Confirm in chat what was added and where so Rithwik can sanity check.
 
-The bullet bank is *derivative*. Do not edit `docs/04_EXPERIENCE_FACT_BANK.md` from a bullet bank update — only Rithwik adds verified facts there.
+The bullet bank is *derivative*. Do not invent a fact bank entry just to justify a bullet. Facts enter `docs/04_EXPERIENCE_FACT_BANK.md` only when Rithwik states them, including when he answers questions asked for a job. Follow the write-back rule below.
+
+## Fact-bank write-back (core)
+
+When a job needs a claim the fact bank does not already support, ask Rithwik the few questions that would change the resume or cover letter. Do not ask for facts already recorded.
+
+When he answers, update the fact bank in that same turn, before the draft uses the new information:
+
+1. Compare every answer with `docs/04_EXPERIENCE_FACT_BANK.md` and with claim-strength labels in `docs/20_MASTER_CAREER_BIO_DATA_BANK.md`.
+2. Add a new durable career fact under the closest existing theme, or in a new dated section: `(self-reported by Rithwik, YYYY-MM-DD)`.
+3. If the answer corrects an existing fact, edit that fact in place and label the old value `Superseded. Do not use.`
+4. Keep job-only strategy out of the fact bank: target-company positioning, whether to name a client on this submission, title chosen only for this JD, and which bullets to cut. Those belong in `applications/<company_role>/notes/`.
+5. After the fact is recorded, add a reusable bullet to the matching `docs/bullet_bank/` file when the answer is useful beyond this JD. Ground it with a link to the fact-bank section.
+6. Do not add clients, metrics, interfaces, outcomes, or time savings he did not state. Do not turn a qualified statement into a stronger one.
+7. Tell him in chat what was added, what was updated, and what stayed out of the fact bank.
+
+Writing the fact bank does not require a separate "update the databank" request. It is part of tailoring the job.
 
 ## Pre-push / commit safety
 

@@ -2,6 +2,8 @@
 
 Use this file as the main source of verified resume facts. Do not invent beyond this bank unless Rithwik provides new details.
 
+When Rithwik answers questions asked for a specific job, write the durable facts back here in that same turn. Add a new fact, or update the existing one and mark the old value `Superseded. Do not use.` Leave job-only strategy (target company, whether to name a client on that submission, which bullets to cut) out of this file. Full rule: [`../AGENT.md`](../AGENT.md) → "Write answers back into the fact bank."
+
 ## Current role
 
 Company: Adatafy / Novaspect  
@@ -190,8 +192,28 @@ Durable career facts. Do not add a target company, job description, or applicati
 
 - Every project he has led has been completed successfully.
 - "Successfully" means the project was completed. Do not turn it into an unsupported revenue, adoption, satisfaction, or retention metric.
-- More than half of his customers returned for an expansion or second phase. Use "more than half." Do not invent a precise percentage.
+- 8 of 10 customers returned for an expansion, second phase, or extra work (updated Oct 6, 2026; supersedes "more than half"). Do not convert this into a percentage-based retention or revenue claim.
 - He can provide customer references if requested.
+
+#### Group growth, product-line ownership, and PM evidence (self-reported by Rithwik, Oct 6, 2026)
+
+Durable career facts. Do not add a target company or application strategy here.
+
+- Joined as the **2nd or 3rd engineer** (updated Oct 7, 2026; supersedes "5th"). The group then had 2 sales reps, 1 service coordinator, and 1 executive leader. It now has 15+ engineers, 5+ sales reps, and 3 service coordinators.
+- The group was unprofitable when he joined and is now consistently profitable. It has landed several multi-million-dollar projects plus site-expansion and corporate opportunities. Do not say Rithwik caused the growth or profitability.
+- Adatafy is a Novaspect brand. It shares HR and finance with Novaspect, but the deployment group operates independently. Approved wording: "independently run, startup-stage deployment group." Never call it venture-backed or a Series A–D startup.
+- Point person for all Shiftconnector (Seqonis) work: solution architecture, coding, demos, and delegating tasks to other engineers. Approved wording: "Own the Shiftconnector (Seqonis) product line as the company's point person."
+- Customer expansion: **8 of 10** customers returned for a second phase, expansion, or extra work. Supersedes "more than half."
+- Seqonis–SAP PM integration reuse: follow-on customers have used it after the first build. A newly signed 100–150 user project is finalized, but use of the integration there is still in discovery and not yet approved. Do not claim that deployment uses the integration, and do not claim a corporate agreement.
+- One-click testing product: one client so far.
+- Leading an internal **locally hosted open-source LLM coding agent** so engineers can use AI on client IP that cannot be shared with frontier-lab tools. He pitched it, gathers use cases from engineers across projects, does the design and testing, and is building the agent himself. In progress; internal use.
+- Scope tradeoff example: a pharma customer requested a workflow sending information to different departments by separate emails, which would have caused scope creep and a budget overrun. He proposed a centrally visible dashboard where each team sees its own information. The project was delivered on time and within budget.
+- Runs feasibility studies for larger projects: onsite workflow and problem discovery that feeds the main deployment scope. Project roadmaps live in Jira and Confluence. Prioritization is his own judgment; no named framework.
+- Wrote messaging and go-to-market content for Augmentir and Seqonis, tailored differently for sales and executives. Works directly with sales and marketing on positioning.
+- AI in daily work: uses Cursor, Codex, ChatGPT, and Claude chat to learn unfamiliar client platforms, integrations, and industrial domains; to write project code; and to build technical sales scenarios that train sales reps on concepts and use cases to look for.
+- Managed and mentored interns across two different years at Adatafy. Informal; no direct reports.
+
+Personal context (cover letters only, never the resume): has personal investing accounts (401(k), Roth IRA, personal portfolio) and built a basic weekly stock-signal bot using simple math trends. Never state the portfolio amount. Plans an MBA; long-term goal is leadership.
 
 #### Travel and onsite delivery (self-reported by Rithwik, Oct 2026)
 

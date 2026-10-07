@@ -14,7 +14,7 @@ Living, role-segmented library of resume bullets. Job agents read the matching r
 
 ## Rules of the bank
 
-1. **Verified-facts source of truth is `../04_EXPERIENCE_FACT_BANK.md`.** Every bullet here must trace back to a fact there. Do not invent.
+1. **Verified-facts source of truth is `../04_EXPERIENCE_FACT_BANK.md`.** Every bullet here must trace back to a fact there. Do not invent. If Rithwik states a new durable fact while answering job questions, record it in the fact bank first, then add the bullet here.
 2. **Never duplicate.** Search the relevant file first. If a near-duplicate exists, add `(see also: …)` and stop.
 3. **Append, don't rewrite.** Bullets here are reusable building blocks. Refining wording for a specific JD happens in the application folder, not here.
 4. **Provenance every entry.** Tag each bullet with one of:

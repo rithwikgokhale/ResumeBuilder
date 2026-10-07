@@ -21,13 +21,26 @@ Tailor Rithwik Gokhale's one-page LaTeX resume + cover letter for a specific JD 
    - [`PM.md`](docs/bullet_bank/PM.md) — Product / Program Manager / TPM
 7. [`latex/sections/`](latex/sections/) — current canonical content.
 
-## Workflow (5 steps)
+## Workflow
 
 1. **Classify** the JD into one primary persona (see doc 10).
-2. **Draft** the full tailored resume + cover letter **in chat**. Pull bullets from the matching bullet-bank file; ground every claim in the fact bank and the bio data bank (doc 20).
-3. **Wait** for "good to go, generate PDF" (or equivalent).
-4. **Compile** into `applications/<company_role>/` (lowercase snake_case) using the template structure.
-5. **Verify** the resume PDF is one US Letter page.
+2. **Ask, then write the answers back.** If the fact bank does not already support a claim this JD needs, ask only the questions that would change the resume or cover letter. When Rithwik answers, reconcile those answers into [`docs/04_EXPERIENCE_FACT_BANK.md`](docs/04_EXPERIENCE_FACT_BANK.md) in the same turn. This is a core step, not a follow-up.
+3. **Draft** the full tailored resume + cover letter **in chat**. Pull bullets from the matching bullet-bank file; ground every claim in the fact bank and the bio data bank (doc 20).
+4. **Wait** for "good to go, generate PDF" (or equivalent).
+5. **Compile** into `applications/<company_role>/` (lowercase snake_case) using the template structure.
+6. **Verify** the resume PDF is one US Letter page.
+
+## Write answers back into the fact bank
+
+Do this every time Rithwik answers questions asked for a specific job, before using those answers in the draft.
+
+1. Check each answer against `docs/04_EXPERIENCE_FACT_BANK.md`. Also check `docs/20_MASTER_CAREER_BIO_DATA_BANK.md` for a conflicting claim-strength label.
+2. **New durable fact** (true beyond this application): add it under the matching theme, or a new dated section. Tag it `(self-reported by Rithwik, YYYY-MM-DD)`.
+3. **Update to an existing fact** (corrected count, ownership, scope, or outcome): edit that fact in place. Mark the old figure `Superseded. Do not use.` Do not leave two active versions.
+4. **Job-only choice** (whether to name a client on this submission, which title to use for this JD, which bullets to cut, company-specific positioning): keep it in the application notes. Do not put it in the fact bank.
+5. If the answer also makes a reusable bullet, add that bullet to the matching `docs/bullet_bank/` file only after the fact is in the fact bank, with a grounding link.
+6. Do not invent details he did not state, and do not strengthen a qualified claim.
+7. In chat, say what was added, what was updated, and what was left out because it was only for this job.
 
 ## Hard rules
 

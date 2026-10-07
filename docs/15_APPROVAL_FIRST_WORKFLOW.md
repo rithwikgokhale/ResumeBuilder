@@ -10,11 +10,12 @@ When Rithwik pastes a job description or job link, do this in order:
 2. Analyze the JD.
 3. Classify the role persona.
 4. Identify fit level and gaps.
-5. Draft the tailored resume content in chat.
-6. Draft the cover letter content in chat.
-7. Wait for Rithwik's feedback.
-8. Iterate in the agent chat until the content is approved.
-9. Only after approval, write files and compile PDFs.
+5. If a needed claim is missing from the fact bank, ask only the questions that would change the draft. When Rithwik answers, add or update those durable facts in `docs/04_EXPERIENCE_FACT_BANK.md` before drafting. Do not store job-only strategy there.
+6. Draft the tailored resume content in chat.
+7. Draft the cover letter content in chat.
+8. Wait for Rithwik's feedback.
+9. Iterate in the agent chat until the content is approved.
+10. Only after approval, write files and compile PDFs.
 
 ## Required preview before PDF generation
 

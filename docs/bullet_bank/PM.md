@@ -50,6 +50,18 @@ Persona references:
   - grounded in: [`../04_EXPERIENCE_FACT_BANK.md`](../04_EXPERIENCE_FACT_BANK.md) → "Data mapping, preparation, and migration"
 - Created reusable **Seqonis** form-configuration, configuration, and deployment tools; escalated customer feedback that became a platform feature; and designed the internal project-management lifecycle used across the team's workflow solutions. Existing deployment automation reduced manual setup by up to **60%**. *(source: chat 2026-10-01)*
   - grounded in: [`../04_EXPERIENCE_FACT_BANK.md`](../04_EXPERIENCE_FACT_BANK.md) → "Reusable capabilities and process improvements"
+- Every project led was completed successfully, and **8 of 10** customers returned for an expansion or second phase; customer references are available on request. Do not convert "successfully" into a revenue, adoption, satisfaction, or retention metric. *(source: chat 2026-10-01)*
+  - grounded in: [`../04_EXPERIENCE_FACT_BANK.md`](../04_EXPERIENCE_FACT_BANK.md) → "Customer outcomes"
+
+#### Product-line ownership and strategy
+
+- Joined as the **2nd or 3rd engineer** of an independently run, startup-stage deployment group as it grew to 15+ engineers, moved from losses to consistent profitability, and won multi-million-dollar projects; delivered approximately 10 B2B industrial software deployments, with **8 of 10 customers** returning for expansions or follow-on phases. *(source: chat 2026-10-06)*
+  - grounded in: [`../04_EXPERIENCE_FACT_BANK.md`](../04_EXPERIENCE_FACT_BANK.md) → "Group growth, product-line ownership, and PM evidence"
+- Own the **Shiftconnector (Seqonis) product line** as the company's point person; set solution direction and architecture, prioritize customer requests, delegate build work to engineers, and mentored interns across two years. *(source: chat 2026-10-06)*
+- Pitched and now lead an internal **AI coding agent** built on locally hosted open-source LLMs so engineers can apply AI to client IP that cannot go to frontier-lab tools; gather use cases across project teams, define requirements, and build and test the agent. *(source: chat 2026-10-06)*
+- Run **feasibility studies** and onsite discovery with executives, IT, plant managers, and operators; turn findings into scoped specs, success criteria, Jira user stories, acceptance criteria, and Jira/Confluence roadmaps for deployments of up to 150 users. *(source: chat 2026-10-06)*
+- Delivered a pharma deployment **on time and within budget** by replacing a scope-creeping request for department-specific email routing with a shared dashboard that surfaced each team's information; manage tradeoffs across up to **5 concurrent projects**, all delivered on deadline. *(source: chat 2026-10-06)*
+- Write **positioning and GTM content** for Augmentir and Seqonis tailored separately to sales and executives; deliver 30--40 tailored demos per year and use AI to build technical sales scenarios that train reps on the use cases to listen for. *(source: chat 2026-10-06)*
 
 ### NVIDIA — Enterprise XR Technical Product Management Intern *(title fixed)*
 
