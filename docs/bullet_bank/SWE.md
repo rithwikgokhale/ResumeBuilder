@@ -23,6 +23,8 @@ These are the defaults for an SWE-leaning JD. Lead with the ones that match the 
 
 ### Adatafy / Novaspect
 
+- Designed and implemented **alarm-to-maintenance workflows** where equipment alarms generate tracked maintenance issues that users can assign, edit, annotate, and follow through resolution. *(source: chat 2026-10-20)*
+  - grounded in: [`../04_EXPERIENCE_FACT_BANK.md`](../04_EXPERIENCE_FACT_BANK.md) → "Alarm-to-maintenance, quality-inspection, and change-control workflows"
 - Designed **integration and data-flow patterns** connecting Shiftconnector, Augmentir, and GoCanvas with SAP/ERP, CMMS, historians, alarms/events, and equipment logs using **REST/JSON APIs**, structured mapping, and system acceptance testing. *(source: canonical)*
 - Installed and administered **SQL Server** for Shiftconnector deployments; configured databases and wrote **T-SQL** export/reporting queries using joins, date filters, and aggregations. *(source: canonical)*
 - Triaged production issues across multi-site deployments by reproducing bugs, analyzing logs/data, validating integrations, and delivering fixes or workarounds. *(source: canonical)*

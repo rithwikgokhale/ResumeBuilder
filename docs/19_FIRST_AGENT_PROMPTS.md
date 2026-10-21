@@ -29,6 +29,7 @@ Important constraints:
 - Do not change NVIDIA or Dolby job titles.
 - Update the Skills section based on the JD using only real skills.
 - Use action verb + task + method/context + scope/scale + outcome/value.
+- Do not start more than two resume bullets or sentences with the same action word. Replace a third use with a synonym that still matches the real work.
 - Use numbers where real numbers exist.
 - Bold only the most relevant phrases, not too many.
 - Generate a cover letter by default, but show it in chat before PDF creation.

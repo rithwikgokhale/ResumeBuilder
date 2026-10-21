@@ -167,8 +167,8 @@ Durable career facts. Do not add a target company, job description, or applicati
 - The functions connected the client’s Augmentir connected-worker solution to a central data fabric and the appropriate fields/workflows in SAP PM and ERP.
 - The original process involved manually running unit-test scripts.
 - Rithwik proposed and designed enhancements that turned the manual process into a one-click testing product.
-- Rithwik wrote the core code for the test-execution capability.
-- Other engineers worked on the data-import and email functionality.
+- Rithwik wrote the core code for the test-execution capability. That code was written **within Augmentir's built-in scripting engine and testing environment**. It was **not** an independently developed backend service or custom REST API (clarified by Rithwik, 2026-10-20). Never describe it as a standalone backend, service, or API.
+- Other engineers worked on supporting components, including the data-import and email functionality.
 - The feature executes the tests together from one action.
 - It confirms and displays results in a dashboard.
 - It generates a report.
@@ -178,6 +178,16 @@ Durable career facts. Do not add a target company, job description, or applicati
 - The project was successfully completed.
 - The framework is now used at several sites across the United States and Mexico.
 - Do not imply that Rithwik independently wrote every component. Distinguish his core-code and product/use-case ownership from the components coordinated with other engineers.
+
+#### Alarm-to-maintenance, quality-inspection, and change-control workflows (self-reported by Rithwik, 2026-10-20)
+
+Durable career facts. Do not add a target company or application strategy here.
+
+- **Alarm and maintenance workflows:** Designed and implemented operational software workflows in which equipment alarms create maintenance issues. Users can assign issues, modify details, add information, and track them through resolution.
+- **Quality inspections and operator rounds:** Implemented quality-inspection and operator-rounds workflows.
+- **Change-control documentation:** Implemented change-control documentation workflows involving lockout/tagout and interlock-bypass processes.
+- Scope limit: these were industrial **operations software workflows** (documentation, routing, tracking). Never imply that Rithwik engineered physical safety controls, designed safety instrumented systems, or authorized safety-system or interlock bypasses.
+- Not yet captured: which platform each workflow ran on (Shiftconnector/Seqonis, Augmentir, or other), client names, and counts. Do not name a platform or add a metric until Rithwik confirms it.
 
 #### Reusable capabilities and process improvements
 
@@ -199,7 +209,7 @@ Durable career facts. Do not add a target company, job description, or applicati
 
 Durable career facts. Do not add a target company or application strategy here.
 
-- Joined as the **2nd or 3rd engineer** (updated Oct 7, 2026; supersedes "5th"). The group then had 2 sales reps, 1 service coordinator, and 1 executive leader. It now has 15+ engineers, 5+ sales reps, and 3 service coordinators.
+- Joined as the **3rd engineer** (updated Oct 8, 2026; supersedes "2nd or 3rd" and "5th"). The group then had 2 sales reps, 1 service coordinator, and 1 executive leader. It now has 15+ engineers, 5+ sales reps, and 3 service coordinators.
 - The group was unprofitable when he joined and is now consistently profitable. It has landed several multi-million-dollar projects plus site-expansion and corporate opportunities. Do not say Rithwik caused the growth or profitability.
 - Adatafy is a Novaspect brand. It shares HR and finance with Novaspect, but the deployment group operates independently. Approved wording: "independently run, startup-stage deployment group." Never call it venture-backed or a Series A–D startup.
 - Point person for all Shiftconnector (Seqonis) work: solution architecture, coding, demos, and delegating tasks to other engineers. Approved wording: "Own the Shiftconnector (Seqonis) product line as the company's point person."

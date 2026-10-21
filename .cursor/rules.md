@@ -151,6 +151,8 @@ Use numbers where real numbers exist. Current final figures in the fact bank inc
 
 Do not invent new numbers.
 
+The same opening action word may start a resume sentence or bullet at most twice. Count the first word only, and treat simple variants as the same word (`Led` / `Leading`, `Built` / `Build`). Before a third use, choose a synonym that still describes the actual work. Start from the verb lists in `docs/09_BULLET_WRITING_SYSTEM.md`. Do not swap in a stronger verb that changes what Rithwik did. Skills lines and headings do not count.
+
 ## Bolding rules
 
 Use `\textbf{...}` sparingly:

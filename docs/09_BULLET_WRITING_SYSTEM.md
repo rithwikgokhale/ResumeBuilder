@@ -114,6 +114,8 @@ Built LLM-powered SME assistant workflows in Augmentir, iterating prompt templat
 
 Prefer precise verbs. Avoid weak verbs like “worked on,” “helped,” “assisted with,” or “responsible for” unless absolutely necessary.
 
+The same action word may open a resume sentence or bullet at most twice. Count only the first word, and treat simple variants as the same word (`Led` / `Leading`, `Built` / `Build`). If a third bullet would repeat it, look through the lists below and pick the synonym that most accurately matches the work. Do not choose a synonym that upgrades the claim. Skills lines and headings do not count.
+
 ### Delivery / Customer-Facing
 - Delivered
 - Led
@@ -314,7 +316,7 @@ Performed discovery, demos, technical validation, sales engineering, solution se
 
 Before finalizing, each bullet should satisfy at least 4 of these:
 
-- Starts with a strong action verb
+- Starts with a strong action verb, and that opening word is used at most twice on the resume
 - Says what was actually done
 - Includes relevant tools/systems/context
 - Includes a metric, scale, or scope

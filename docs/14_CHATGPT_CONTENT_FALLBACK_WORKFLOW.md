@@ -38,6 +38,7 @@ Please generate stronger tailored content for:
 Rules:
 - Do not invent facts.
 - Use action verb + work done + context/method + scope/scale + outcome/value.
+- The same opening action word may start at most two resume bullets or sentences. Replace a third use with a synonym that still matches the real work.
 - Use numbers only when real or already provided.
 - Bold only the highest-value role-relevant phrases.
 - Keep it compact enough for one page.

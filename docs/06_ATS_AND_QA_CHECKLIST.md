@@ -19,6 +19,7 @@ The resume must match the **approved baseline** in `latex/resume-style.sty` and 
 - [ ] Dates correct.
 - [ ] Locations correct or flagged if source documents disagree.
 - [ ] Bullet metrics are truthful.
+- [ ] No opening action word starts more than two resume bullets or sentences. A repeated third use was replaced with a synonym that still matches the work.
 - [ ] JD-relevant keywords appear naturally.
 - [ ] Strongest Adatafy bullets appear near the top.
 - [ ] Skills match the JD without keyword stuffing.
